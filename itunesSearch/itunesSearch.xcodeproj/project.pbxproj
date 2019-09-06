@@ -16,6 +16,7 @@
 		37EC3FF323230246005F80DF /* SearchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EC3FF223230246005F80DF /* SearchResultController.swift */; };
 		37EC3FF523230513005F80DF /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EC3FF423230513005F80DF /* ResultType.swift */; };
 		37EC3FF7232307D6005F80DF /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EC3FF6232307D6005F80DF /* SearchResultsTableViewController.swift */; };
+		37EC3FF923231AB2005F80DF /* SearchTermTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EC3FF823231AB2005F80DF /* SearchTermTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		37EC3FF223230246005F80DF /* SearchResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultController.swift; sourceTree = "<group>"; };
 		37EC3FF423230513005F80DF /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
 		37EC3FF6232307D6005F80DF /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
+		37EC3FF823231AB2005F80DF /* SearchTermTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTermTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				37EC3FF6232307D6005F80DF /* SearchResultsTableViewController.swift */,
+				37EC3FF823231AB2005F80DF /* SearchTermTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				37EC3FF323230246005F80DF /* SearchResultController.swift in Sources */,
 				37EC3FF7232307D6005F80DF /* SearchResultsTableViewController.swift in Sources */,
 				37EC3FF123230235005F80DF /* SearchResult.swift in Sources */,
+				37EC3FF923231AB2005F80DF /* SearchTermTableViewCell.swift in Sources */,
 				371D1E9D2323011A005AA21B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
