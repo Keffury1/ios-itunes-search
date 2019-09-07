@@ -9,8 +9,11 @@
 import Foundation
 
 class SearchResultController {
-    private let baseURL = URL(string: "NEEDS URL")
+    
+    private let baseURL = URL(string: "https://itunes.apple.com/")
+    
     var searchResults: [SearchResult] = []
+    
     enum HTTPMethod: String {
         case get = "GET"
         case put = "PUT"
@@ -24,7 +27,7 @@ class SearchResultController {
             return
         }
         var urlComponents = URLComponents(url: baseURL, resolvingAgainstBaseURL: true)
-        let searchTermQueryItem = URLQueryItem(name: "NEEDS URL", value: searchTerm)
+        let searchTermQueryItem = URLQueryItem(name: "lookup?", value: searchTerm)
         urlComponents?.queryItems = [searchTermQueryItem]
         
         guard let requestURL = urlComponents?.url else {

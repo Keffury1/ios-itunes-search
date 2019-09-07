@@ -106,7 +106,6 @@
 		371D1EB12323013B005AA21B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				37EC3FF6232307D6005F80DF /* SearchResultsTableViewController.swift */,
 				37EC3FF823231AB2005F80DF /* SearchTermTableViewCell.swift */,
 			);
 			path = Views;
@@ -115,6 +114,7 @@
 		371D1EB22323013F005AA21B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				37EC3FF6232307D6005F80DF /* SearchResultsTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
