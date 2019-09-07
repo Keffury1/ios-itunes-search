@@ -28,7 +28,8 @@ class SearchResultController {
         }
         var urlComponents = URLComponents(url: baseURL, resolvingAgainstBaseURL: true)
         let searchTermQueryItem = URLQueryItem(name: "lookup?", value: searchTerm)
-        urlComponents?.queryItems = [searchTermQueryItem]
+        let resultQueryItem = URLQueryItem(name: "entity", value: resultType.rawValue)
+        urlComponents?.queryItems = [searchTermQueryItem, resultQueryItem]
         
         guard let requestURL = urlComponents?.url else {
             print("request URL is nil")
