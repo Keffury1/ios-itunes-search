@@ -26,14 +26,14 @@ class SearchResultsTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return searchResultsController.searchResults.count
+        return searchResultsController.results.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath) as? SearchTermTableViewCell else { return UITableViewCell() }
 
-        let searchResults = searchResultsController.searchResults[indexPath.row]
+        let searchResults = searchResultsController.results[indexPath.row]
         cell.searchResult = searchResults
         
        
@@ -69,9 +69,6 @@ extension SearchResultsTableViewController: UISearchBarDelegate {
                 self.tableView.reloadData()
             }
         }
-        
-        //HAVING TROUBLE WITH THE SWITCH STATEMENT.
-        
         
         
     }
